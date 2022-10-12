@@ -9,7 +9,8 @@ Before building the compiler, you need the following things installed:
 * `git`
 * `ssl` which comes in `libssl-dev` or `openssl-devel`
 * `pkg-config` if you are compiling on Linux and targeting Linux
-* `libstdc++-static` may be required on some Linux distributions such as Fedora and Ubuntu
+* `glibc-static` and `libstdc++-static` may be required on some Linux distributions
+  such as Fedora and Ubuntu
 
 If building LLVM from source (the default), you'll need additional tools:
 
